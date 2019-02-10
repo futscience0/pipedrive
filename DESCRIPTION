@@ -1,0 +1,19 @@
+Package: pipedrive
+Type: Package
+Title: Call Pipedrive API
+Version: 0.1.0
+Author: Felipe H Santos
+Maintainer: Felipe H Santos <felipe.santos@autoblocs.com>
+Description: Interface for Pipedrive API.
+    It calls deals and dealsFields endpoints
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    magrittr,
+    plyr,
+    dplyr,
+    jsonlite,
+    httr,
+    stringi
+RoxygenNote: 6.1.0
